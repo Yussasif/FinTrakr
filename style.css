@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    overflow: hidden;
     box-sizing: border-box;
 }
 header{
@@ -37,6 +36,7 @@ a{
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
     opacity: 1;
+    
     
 }
 #get-App{
@@ -110,4 +110,24 @@ a{
     left: 50px;
     width: 44px;
     height: 44px;
+}
+.how-simple{
+    width: 100%;
+    text-align: center;
+}
+.how-it-works{
+    font: normal normal normal 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #222A41;
+    opacity: 1;
+}
+.simple-and-fast{
+    font: normal normal normal 45px/51px Poppins;
+    letter-spacing: 0px;
+    color: #222A41;
+    opacity: 1;
+}
+.three-flex{
+    width: 100%;
+    display: flex;
 }
