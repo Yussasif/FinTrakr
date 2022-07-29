@@ -147,7 +147,8 @@ header{
     opacity: 1;
 }
 .three-flex{
-    width: 100%;
+    width: 80%;
+    margin: auto;
     /* height: 700px; */
     display: flex;
     flex-direction: column;
@@ -298,6 +299,7 @@ header{
 }
 section{
     width: 100%;
+    margin-top: 10px;
     text-align: center;
 }
 .choose-plan{
@@ -402,54 +404,58 @@ section{
 .see-questions{
     background: #3E23FF 0% 0% no-repeat padding-box;
     border: none;
-    border-radius: 50px;
+    border-radius: 30px;
     text-align: center;
-    font: normal normal normal 16px/24px Poppins;
+    font: normal normal normal 10px/20px Poppins;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
-    padding: 10px;
-    width: 176px;
-    height: 50px;
+    
+    width: 120px;
+    height: 30px;
     margin: auto;
     box-shadow: 0px 3px 15px #4b73f7;
 }
 .footer-div{
-    width: 100%;
+    width: 50%;
     display: flex;
-    height: 200px;
-    margin-top: 100px;
-    padding-left: 260px;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+    /* height: 200px; */
+    margin-top: 50px;
+    /* padding-left: 260px; */
 }
 .left-footer{
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 .middle-footer{
+    display: none;
     width: 100%;
     text-align: left;
     padding-left: 100px;
 }
 .right-footer{
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 .footer-h3{
-    text-align: left;
+    /* text-align: left; */
     font: normal normal bold 24px/32px Poppins;
     letter-spacing: 0px;
     color: #233D63;
     opacity: 1;
 }
 .footer-p{
-    text-align: left;
+    /* text-align: left; */
     letter-spacing: 0px;
     color: #6D7783;
     opacity: 1;
     font: normal normal normal 12px/24px Raleway;
 }
 .footer-h4{
-    text-align: left;
+    /* text-align: left; */
     font: normal normal normal 16px/24px Poppins;
     letter-spacing: 0px;
     color: #222A41;
@@ -457,4 +463,7 @@ section{
 }
 
 
+}
+br{
+    display: none;
 }
