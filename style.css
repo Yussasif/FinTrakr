@@ -54,8 +54,8 @@ header{
 .big-text{
     position: absolute;
     top: 283px;
-    left: 20%;
-    width: 60%;
+    left: 204px;
+    width: 1000px;
     height: 237px;
     text-align: center;
     font: normal normal bold 90px/110px Poppins;
@@ -65,8 +65,8 @@ header{
 }
 .small-text{
     position: absolute;
-    top: 550px;
-    left: 22%;
+    top: 558px;
+    left: 216px;
     width: 976px;
     height: 81px;
     font: normal normal normal 22px/54px Raleway;
@@ -80,14 +80,14 @@ header{
     position: absolute;
     margin: 0;
     top: 239px;
-    left: 5%;
+    left: 61px;
     width: 175px;
     height: 182px;
 }
 .down-blob{
     position: absolute;
-    top: 450px;
-    left: 70%;
+    top: 536px;
+    left: 1104px;
     width: 256px;
     height: 256px;
 }
@@ -101,7 +101,7 @@ header{
 .right-round-blob{
     position: absolute;
     top: 239px;
-    left: 75%;
+    left: 1210px;
     width: 44px;
     height: 44px;
 }
