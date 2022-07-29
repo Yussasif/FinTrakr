@@ -406,7 +406,7 @@ section{
 .footer-div{
     width: 100%;
     display: flex;
-    height: 300px;
+    height: 200px;
     margin-top: 100px;
     padding-left: 260px;
 }
@@ -417,8 +417,30 @@ section{
 .middle-footer{
     width: 100%;
     text-align: left;
+    padding-left: 100px;
 }
 .right-footer{
     width: 100%;
     text-align: left;
+}
+.footer-h3{
+    text-align: left;
+    font: normal normal bold 24px/32px Poppins;
+    letter-spacing: 0px;
+    color: #233D63;
+    opacity: 1;
+}
+.footer-p{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #6D7783;
+    opacity: 1;
+    font: normal normal normal 12px/24px Raleway;
+}
+.footer-h4{
+    text-align: left;
+    font: normal normal normal 16px/24px Poppins;
+    letter-spacing: 0px;
+    color: #222A41;
+    opacity: 1;
 }
