@@ -11,8 +11,8 @@ header{
 #logo{
     position: absolute;
     top: 65px;
-    padding-left: 70px;
-    padding-right: 700px;
+    left: 162px;
+    /* padding-right: 700px; */
     color: white;
     font: normal normal bold 24px/35px Poppins;
     letter-spacing: 0px;
@@ -21,8 +21,8 @@ header{
 .navbar{
     display: flex;
     float: right;
-    top: 69px;
-    left:40%;
+    top: 65px;
+    left: 415px;
     width: 679px;
     height: 24px;
     position: absolute;
@@ -44,7 +44,7 @@ header{
     background-color: #48D4A5;
     position: absolute;
     top: 51px;
-    left: 80%;
+    left: 1133px;
     border-radius: 189px;
     width: 179px;
     height: 62px;
