@@ -18,7 +18,7 @@ header{
     letter-spacing: 0px;
     opacity: 1;
 }
-ul{
+.navbar{
     display: flex;
     float: right;
     top: 69px;
@@ -69,7 +69,7 @@ ul{
     left: 22%;
     width: 976px;
     height: 81px;
-    font: Raleway;
+    font: normal normal normal 22px/54px Raleway;
     font-size: 21px;
     text-align: center;
     letter-spacing: 0px;
@@ -130,7 +130,7 @@ ul{
 }
 .three-flex{
     width: 100%;
-    height: 750px;
+    height: 700px;
     display: flex;
     margin-top: 10px;
 }
@@ -199,4 +199,133 @@ ul{
     text-align: left;
     margin-top: 100px;
     margin-right: 10px;
+}
+.pricing-div{
+    width: 100%;
+    height: 700px;
+}
+.left-pricing-div{
+    position: relative;
+    width: 369px;
+    height: 505px;
+    top: 100px;
+    left: 435px;
+    padding: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 20px #00000014;
+    border: 1px solid #F2F2F2;
+    border-radius: 18px;
+    opacity: 1;
+}
+.right-pricing-div{
+    position: relative;
+    left: 786px;
+    top: -450px;
+    width: 419px;
+    height: 605px;
+    padding: 20px;
+    opacity: 1;
+    background: #3E23FF 0% 0% no-repeat padding-box;
+    box-shadow: 10px 15px 20px 10px #00000014;
+    border: 1px solid #2f17e7;
+    border-radius: 18px;
+    opacity: 1;
+}
+.free-plan{
+    text-align: center;
+    font: normal normal normal 24px/32px Poppins;
+    letter-spacing: 0px;
+    color: #222A41;
+    opacity: 1;
+    margin-top: 10px;
+}
+.zero-dollar{
+    text-align: center;
+    font: normal normal normal 60px/80px Poppins;
+    letter-spacing: 0px;
+    color: #3E23FF;
+    opacity: 1;
+    margin: 5px;
+}
+.check-icon{
+    width: 25px;
+    height: 23px;
+    position: relative;
+    top: 5px;
+}
+
+.plan-list{
+    text-align: left;
+    font: normal normal normal 18px/27px Raleway;
+    letter-spacing: 0px;
+    color: #222A41;
+    opacity: 1;
+    margin-left: 15px;
+} 
+.plan-list-no{
+    text-align: left;
+    font: normal normal normal 18px/27px Raleway;
+    letter-spacing: 0px;
+    color: #AEB7C1;
+    margin-left: 15px;
+    opacity: 1;
+}
+section{
+    width: 100%;
+    text-align: center;
+}
+.choose-plan{
+    background: #3E23FF 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    font: normal normal normal 16px/24px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 10px;
+    width: 154px;
+    height: 50px;
+    margin: auto;
+    box-shadow: 0px 3px 15px #4b73f7;
+}
+.plan-list-2{
+    text-align: left;
+    font: normal normal normal 18px/27px Raleway;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    margin-left: 50px;
+    margin-bottom: 10px;
+} 
+.nine-dollar{
+    text-align: center;
+    font: normal normal normal 60px/80px Poppins;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    margin: 10px;
+}
+.premium-plan{
+    text-align: center;
+    font: normal normal normal 24px/32px Poppins;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    margin-top: 10px;
+}
+.choose-plan-2{
+    background: #fff 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    font: normal normal normal 16px/24px Poppins;
+    letter-spacing: 0px;
+    color: #3E23FF;
+    opacity: 1;
+    padding: 10px;
+    width: 154px;
+    height: 50px;
+    margin: auto;
+    box-shadow: 0px 3px 15px #4b73f7;
 }
