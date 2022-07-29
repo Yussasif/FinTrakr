@@ -214,7 +214,7 @@ header{
     opacity: 1;
 }
 .phone{
-    position: relative;
+    /* position: relative; */
     width: 150px;
     height: 260px;
 }
