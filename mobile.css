@@ -226,7 +226,7 @@ header{
 }
 .pricing-div{
     width: 100%;
-    height: 800px;
+    /* height: 800px; */
     display: flex;
     flex-direction: column;
 }
@@ -234,7 +234,7 @@ header{
     width: 60%;
     margin: auto;
     margin-top: 20px;
-    height: 515px;
+    /* height: 505px; */
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 4px 20px #00000014;
     border: 1px solid #F2F2F2;
@@ -246,7 +246,7 @@ header{
 .right-pricing-div{
     position: relative;
     width: 70%;
-    height: 605px;
+    /* height: 605px; */
     margin-top: 50px;
     margin: auto;
     opacity: 1;
@@ -256,6 +256,7 @@ header{
     border: 1px solid #2f17e7;
     border-radius: 18px;
     opacity: 1;
+    margin-bottom: 20px;
 }
 .free-plan{
     text-align: center;
@@ -356,18 +357,20 @@ section{
 }
 .help-div{
     display: flex;
+    flex-direction: column-reverse;
     width: 100%;
-    height: 400px;
-    margin-top: 50px;
+    /* height: 400px; */
+    margin-top: 30px;
 }
 .left-help{
-    width: 100%;
-    margin-right: 10px;
-    text-align: right;
+    width: 80%;
+    margin: auto;
+    display: none;
+    text-align: right; 
 }
 .help-option{
     padding: 15px;
-    width: 411px;
+    width: 80%;
     border: none;
     border-radius: 5px;
     font: normal normal medium 20px/24px Raleway;
@@ -379,13 +382,13 @@ section{
     
 }
 .right-help{
-    width: 100%;
-    margin-left: 10px;
-    text-align: left;
+    width: 80%;
+    margin: auto;
+    text-align: center; 
 }
 .help-option-right{
     padding: 15px;
-    width: 411px;
+    width: 80%;
     border: none;
     border-radius: 5px;
     font: normal normal medium 20px/24px Raleway;
