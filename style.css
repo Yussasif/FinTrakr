@@ -54,6 +54,12 @@ header{
     text-align: center;
    
 }
+.blue-div{
+    background-color:#3E23FF;
+    width:100%;
+    height:500px; 
+    margin-bottom: 0;
+}
 .big-text{
     position: absolute;
     top: 283px;
