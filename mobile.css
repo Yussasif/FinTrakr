@@ -227,28 +227,30 @@ header{
 .pricing-div{
     width: 100%;
     height: 800px;
+    display: flex;
+    flex-direction: column;
 }
 .left-pricing-div{
-    position: relative;
-    width: 369px;
-    height: 505px;
-    top: 100px;
-    left: 335px;
-    padding: 20px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    height: 515px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 4px 20px #00000014;
     border: 1px solid #F2F2F2;
     border-radius: 18px;
     opacity: 1;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .right-pricing-div{
     position: relative;
-    left: 686px;
-    top: -450px;
-    width: 419px;
+    width: 70%;
     height: 605px;
-    padding: 20px;
+    margin-top: 50px;
+    margin: auto;
     opacity: 1;
+    padding-bottom: 20px;
     background: #3E23FF 0% 0% no-repeat padding-box;
     box-shadow: 10px 15px 20px 10px #00000014;
     border: 1px solid #2f17e7;
@@ -269,18 +271,17 @@ header{
     letter-spacing: 0px;
     color: #3E23FF;
     opacity: 1;
-    margin: 5px;
 }
 .check-icon{
-    width: 25px;
-    height: 23px;
+    width: 20px;
+    height: 19px;
     position: relative;
     top: 5px;
 }
 
 .plan-list{
     text-align: left;
-    font: normal normal normal 18px/27px Raleway;
+    font: normal normal normal 15px/20px Raleway;
     letter-spacing: 0px;
     color: #222A41;
     opacity: 1;
@@ -288,7 +289,7 @@ header{
 } 
 .plan-list-no{
     text-align: left;
-    font: normal normal normal 18px/27px Raleway;
+    font: normal normal normal 15px/20px Raleway;
     letter-spacing: 0px;
     color: #AEB7C1;
     margin-left: 15px;
@@ -301,21 +302,20 @@ section{
 .choose-plan{
     background: #3E23FF 0% 0% no-repeat padding-box;
     border: none;
-    border-radius: 50px;
+    border-radius: 30px;
     text-align: center;
-    font: normal normal normal 16px/24px Poppins;
+    font: normal normal normal 10px/15px Poppins;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
-    padding: 10px;
-    width: 154px;
-    height: 50px;
+    width: 90px;
+    height: 30px;
     margin: auto;
     box-shadow: 0px 3px 15px #4b73f7;
 }
 .plan-list-2{
     text-align: left;
-    font: normal normal normal 18px/27px Raleway;
+    font: normal normal normal 15px/20px Raleway;
     letter-spacing: 0px;
     color: #ffffff;
     opacity: 1;
@@ -341,16 +341,17 @@ section{
 .choose-plan-2{
     background: #fff 0% 0% no-repeat padding-box;
     border: none;
-    border-radius: 50px;
+    border-radius: 30px;
     text-align: center;
-    font: normal normal normal 16px/24px Poppins;
+    font: normal normal normal 10px/15px Poppins;
     letter-spacing: 0px;
     color: #3E23FF;
     opacity: 1;
     padding: 10px;
-    width: 154px;
-    height: 50px;
+    width: 90px;
+    height: 30px;
     margin: auto;
+
     box-shadow: 0px 3px 15px #4b73f7;
 }
 .help-div{
