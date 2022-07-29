@@ -71,7 +71,7 @@ header{
 }
 .small-text{
     position: absolute;
-    top: 35%;
+    top: 200px;
     left: 10%;
     width: 80%; 
     font: normal normal normal 12px/15px Raleway;
@@ -104,10 +104,10 @@ header{
 }
 .down-blob{
     position: absolute;
-    top: 536px;
-    left: 1104px;
-    width: 256px;
-    height: 256px;
+    top: 200px;
+    left: 75%;
+    width: 56px;
+    height: 56px;
 }
 .middle-small-blob{
     position: absolute;
