@@ -97,7 +97,7 @@ header{
 .rect{
     position: absolute;
     margin: 0;
-    top: 20%;
+    top: 60px;
     left: 2%;
     width: 45px;
     height: 52px;
@@ -111,24 +111,24 @@ header{
 }
 .middle-small-blob{
     position: absolute;
-    top: 70px;
+    top: 50px;
     left: 48%;
     width: 10px;
     height: 10px;
 }
 .right-round-blob{
     position: absolute;
-    top: 239px;
-    left: 1210px;
-    width: 44px;
-    height: 44px;
+    top: 60px;
+    left: 70%;
+    width: 24px;
+    height: 24px;
 }
 .left-round-blob{
     position: absolute;
-    top: 514px;
-    left: 50px;
-    width: 44px;
-    height: 44px;
+    top: 200px;
+    left: 3%;
+    width: 24px;
+    height: 24px;
 }
 .how-simple{
     width: 100%;
