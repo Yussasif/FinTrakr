@@ -1,4 +1,4 @@
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 600px){
 *{
     margin: 0;
     padding: 0;
@@ -97,10 +97,10 @@ header{
 .rect{
     position: absolute;
     margin: 0;
-    top: 60px;
-    left: 2%;
-    width: 45px;
-    height: 52px;
+    top: 40px;
+    left: 1%;
+    width: 65px;
+    height: 72px;
 }
 .down-blob{
     position: absolute;
